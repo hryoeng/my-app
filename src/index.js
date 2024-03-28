@@ -13,12 +13,13 @@ import Comment from './chapter05_ex/Comment';
 import First from './chapter05_ex2/First';
 import Second from './chapter05_ex2/Second';
 import NotificationList from './chapter06/NotificationList';
+import Counter from './chapter07/Counter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <NotificationList />
+    <Counter />
   </React.StrictMode>
 );
 
