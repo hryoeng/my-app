@@ -14,12 +14,18 @@ import First from './chapter05_ex2/First';
 import Second from './chapter05_ex2/Second';
 import NotificationList from './chapter06/NotificationList';
 import Counter from './chapter07/Counter';
+import Counter2 from './chapter07/Counter2';
+import Accommodate from './chapter07_ex/Accommodate';
+import Recommend1 from './chapter07_ex/Recommend1';
+import Recommend2 from './chapter07_ex/Recommend2';
+import Gugufunction from './chapter07_ex/Gugufunction';
+import Gugudan from './chapter07_ex/Gugudan';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <Counter />
+    <Gugudan />
   </React.StrictMode>
 );
 
