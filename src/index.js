@@ -20,12 +20,22 @@ import Recommend1 from './chapter07_ex/Recommend1';
 import Recommend2 from './chapter07_ex/Recommend2';
 import Gugufunction from './chapter07_ex/Gugufunction';
 import Gugudan from './chapter07_ex/Gugudan';
+import WordRelay from './chapter07_ex/WordRelay';
+import GugudanApp from './chapter07_ex/GugudanApp';
+import ConfirmButton from './chapter08/ConfirmButton';
+import MailBox from './chapter09/MailBox';
+import Counter3 from './chapter09/MailBox';
+import LoginControl from './chapter09/LoginControl';
+import MainPage from './chapter09/MainPage';
+import LandingPage from './chapter09_ex/LandingPage';
+import LoginPage from './chapter09_ex/LoginPage';
+import LoginPage2 from './chapter09_ex/LoginPage2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <Gugudan />
+    <LoginPage2 />
   </React.StrictMode>
 );
 
@@ -36,6 +46,15 @@ root.render(
 //     </React.StrictMode>
 //   );
 // }, 1000);
+
+/* MailBox */
+// const unreadMessages = ["1", "2", "3"];
+
+// root.render(
+//   <React.StrictMode>
+//     <MailBox unreadMessages={unreadMessages} />
+//   </React.StrictMode>
+// );
 
 
 // If you want to start measuring performance in your app, pass a function
