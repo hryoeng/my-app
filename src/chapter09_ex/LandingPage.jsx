@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Toolbar from "./Login"
+import Toolbar from "./Toolbar";
 
 function LandingPage() {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -14,12 +14,12 @@ function LandingPage() {
 
     return (
         <div>
-            <Toolbar
+            <Toolbar 
                 isLoggedIn={isLoggedIn}
                 onClickLogin={onClickLogin}
                 onClickLogout={onClickLogout}
             />
-            <div style={{ padding: 16 }}>함께하는 리액트 공부!!</div>
+            <div style={{ padding: 16 }}>함께하는 리액트 공부!</div>
         </div>
     );
 }

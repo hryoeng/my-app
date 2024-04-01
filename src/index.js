@@ -30,14 +30,28 @@ import MainPage from './chapter09/MainPage';
 import LandingPage from './chapter09_ex/LandingPage';
 import LoginPage from './chapter09_ex/LoginPage';
 import LoginPage2 from './chapter09_ex/LoginPage2';
+import NumberList from './chapter10/NumberList';
+import AttendanceBook from './chapter10_ex/AttendanceBook';
+import FruitSelect from './chapter11/FruitSelect';
+import Reservation from './chapter11/Reservation';
+import SignUp from './chapter11_ex/SignUp';
+import NewPet from './chapter11_ex/Pet';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <LoginPage2 />
+    <NewPet />
   </React.StrictMode>
 );
+
+// const numbers = [1,2,3,4,5];
+
+// root.render(
+//   <React.StrictMode>
+//     <NumberList numbers={numbers}/>
+//   </React.StrictMode>
+// );
 
 // setInterval(() => {
 //   root.render(
