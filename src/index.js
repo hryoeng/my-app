@@ -36,12 +36,15 @@ import FruitSelect from './chapter11/FruitSelect';
 import Reservation from './chapter11/Reservation';
 import SignUp from './chapter11_ex/SignUp';
 import NewPet from './chapter11_ex/Pet';
+import DarkOrLight from './chapter14/DarkOrLight';
+import SignUp2 from './chapter14_ex/SignUp';
+import LoginPage3 from './chapter14_ex/LoginPage3';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <NewPet />
+    <LoginPage3 />
   </React.StrictMode>
 );
 
